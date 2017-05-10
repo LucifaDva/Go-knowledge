@@ -6,8 +6,7 @@
 ---------------
 
 1.编译demo.go
-    任意demo.go代码，比如hello world:
-    
+    任意demo.go代码，比如hello world:    
     ```Go
     package main
 
@@ -21,9 +20,7 @@
     ```
 
     进行编译：
-
     删除调试符号：go build -ldflags “-s -w”
-
     - -s:去掉符号信息
     - -w:去掉DWARF调试信息
 
