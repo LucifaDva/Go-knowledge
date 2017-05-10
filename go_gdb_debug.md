@@ -28,9 +28,9 @@
 
 3.进行调试
 
-sudo gdb demo
+	sudo gdb demo
 
-(gdb) source $GOROOT/src/runtime/runtime-gdb.py
+	(gdb) source $GOROOT/src/runtime/runtime-gdb.py
 Loading Go Runtime support.
 // 查看代码（1）
 (gdb) l main.main
